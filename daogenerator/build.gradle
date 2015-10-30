@@ -1,0 +1,21 @@
+project(':daogenerator') {
+    apply plugin: 'application'
+    apply plugin: 'java'
+
+    mainClassName = "com.example.MyDaoGenerator"
+    def outputDir = "../app/src/main/java"
+
+
+    dependencies {
+        compile('de.greenrobot:greendao-generator:2.0.0')
+    }
+
+    task createDocs {
+        def docs = file(outputDir)
+        docs.mkdirs()
+    }
+
+    run {
+        args outputDir
+    }
+}
