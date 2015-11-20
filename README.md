@@ -1,9 +1,13 @@
 ### Feature
-- บันทึกเรื่องราวหรือข้อความอะไรก็ได้
-- สามารถใช้เสียงของเราบันทึกเป็นข้อความได้(Voice Typing)
+- Note message.
+- You can use voice to typing message. (Support Thai & English)
 
-### Library
+### 3rd party lib
 - Android Design Support Library
 - UltimateRecyclerView
 - GreenDao
 - Parceler
+
+### Project requires
+- API min 15 and target 22
+- If you use voice typing, you must be internet connection.
