@@ -3,10 +3,10 @@
 - You can use voice to typing message. (Support Thai & English only)
 
 ### 3rd party lib
-- Android Design Support Library
-- UltimateRecyclerView
-- GreenDao
-- Parceler
+- <a href="http://developer.android.com/tools/support-library/features.html#design">Android Design Support Library</a>
+- <a href="https://github.com/cymcsg/UltimateRecyclerView">UltimateRecyclerView</a>
+- <a href="https://github.com/greenrobot/greenDAO">GreenDao</a>
+- <a href="https://github.com/johncarl81/parceler">Parceler</a>
 
 ### Project requires
 - API min 15 and target 22
