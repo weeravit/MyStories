@@ -20,7 +20,6 @@ import io.github.w33vit.mystories.R;
 import io.github.w33vit.mystories.dao.Stories;
 import io.github.w33vit.mystories.dao.StoriesDao;
 import io.github.w33vit.mystories.dao.DaoProvider;
-import io.github.w33vit.mystories.utils.Theme;
 
 public class ManageActivity extends AppCompatActivity {
 
@@ -37,15 +36,10 @@ public class ManageActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setupTheme();
         setContentView(R.layout.activity_manage);
 
         initInstances();
         checkMode();
-    }
-
-    private void setupTheme() {
-        Theme.getInstance().setupTheme(ManageActivity.this);
     }
 
     private void checkMode() {

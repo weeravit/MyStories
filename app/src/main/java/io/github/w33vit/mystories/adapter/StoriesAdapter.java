@@ -1,6 +1,5 @@
 package io.github.w33vit.mystories.adapter;
 
-import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,7 +14,6 @@ import java.util.List;
 
 import io.github.w33vit.mystories.R;
 import io.github.w33vit.mystories.dao.Stories;
-import io.github.w33vit.mystories.utils.Theme;
 
 /**
  * Created by Weeravit on 28/10/2558.

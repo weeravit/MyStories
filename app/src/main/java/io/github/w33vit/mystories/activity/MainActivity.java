@@ -8,8 +8,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 
 import com.marshalchen.ultimaterecyclerview.ItemTouchListenerAdapter;
@@ -21,13 +19,11 @@ import org.parceler.Parcels;
 
 import java.util.List;
 
-import io.github.w33vit.mystories.MainApplication;
 import io.github.w33vit.mystories.R;
 import io.github.w33vit.mystories.adapter.StoriesAdapter;
 import io.github.w33vit.mystories.dao.Stories;
 import io.github.w33vit.mystories.dao.StoriesDao;
 import io.github.w33vit.mystories.dao.DaoProvider;
-import io.github.w33vit.mystories.utils.Theme;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -39,14 +35,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setupTheme();
         setContentView(R.layout.activity_main);
 
         initInstances();
-    }
-
-    private void setupTheme() {
-        Theme.getInstance().setupTheme(MainActivity.this);
     }
 
     @Override
@@ -143,24 +134,5 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
     };
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId())
-        {
-            case R.id.action_theme:
-                Intent intent = new Intent(MainActivity.this, ThemeActivity.class);
-                startActivity(intent);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
 
 }

@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <attr name="colorHeaderCardView" format="color"/>
-    <attr name="colorPrimaryDarkButton" format="color"/>
-    <attr name="colorPrimaryButton" format="color"/>
 </resources>
