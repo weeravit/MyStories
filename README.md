@@ -13,5 +13,5 @@
 - If you use voice typing, you must be internet connection.
 
 ### Screenshot
-![Alt text](https://raw.githubusercontent.com/w33vit/MyStories/master/ss1.jpg)
-![Alt text](https://raw.githubusercontent.com/w33vit/MyStories/master/ss2.jpg)
+<img src="https://raw.githubusercontent.com/w33vit/MyStories/master/ss1.jpg" width="200" height="400" />
+<img src="https://raw.githubusercontent.com/w33vit/MyStories/master/ss2.jpg" width="200" height="400" />
