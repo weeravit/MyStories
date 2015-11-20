@@ -1,6 +1,6 @@
 ### Feature
 - Note message.
-- You can use voice to typing message. (Support Thai & English)
+- You can use voice to typing message. (Support Thai & English only)
 
 ### 3rd party lib
 - Android Design Support Library
