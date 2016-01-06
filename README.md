@@ -15,5 +15,4 @@
 - If you use voice typing, you must be internet connection.
 
 ### Screenshot
-<img src="https://raw.githubusercontent.com/w33vit/MyStories/master/ss1.jpg" width="300" height="500" />
-<img src="https://raw.githubusercontent.com/w33vit/MyStories/master/ss2.jpg" width="300" height="500" />
+<img src="https://raw.githubusercontent.com/weeravit/MyStories/master/MyStoriesApp.gif"/>
