@@ -14,5 +14,5 @@
 - API min 15 and target 22
 - If you use voice typing, you must be internet connection.
 
-### Screenshot
+### Demo
 <img src="https://raw.githubusercontent.com/weeravit/MyStories/master/MyStoriesApp.gif"/>
